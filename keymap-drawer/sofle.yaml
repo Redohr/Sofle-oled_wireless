@@ -23,7 +23,7 @@ layers:
   - L
   - U
   - Y
-  - L
+  - '|'
   - '-'
   - BACKSPACE
   - A
@@ -139,13 +139,13 @@ layers:
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - UP ARROW
-  - '&msc SCRL_RIGHT'
   - PRINTSCREEN
+  - '&msc SCRL_RIGHT'
   - VOLUME DOWN
   - VOLUME UP
   - PSCRN
   - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,23 +154,23 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - HOME
-  - PAGE UP
+  - {t: ▽, type: trans}
+  - END
+  - INSERT
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CUT
   - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - DEL
-  - END
-  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
