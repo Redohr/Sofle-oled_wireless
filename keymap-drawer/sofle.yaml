@@ -77,8 +77,8 @@ layers:
   - Alt+TAB
   - Ctl+C
   - '&pt'
-  - '&pf'
-  - PASTE
+  - '&pff'
+  - Ctl+V
   - '&nofill'
   - '6'
   - '7'
@@ -88,8 +88,8 @@ layers:
   - F12
   - '&textcolor'
   - X
-  - S
   - R
+  - S
   - F
   - J
   - ^
@@ -141,8 +141,8 @@ layers:
   - UP ARROW
   - PRINTSCREEN
   - '&msc SCRL_RIGHT'
-  - VOLUME DOWN
-  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PSCRN
   - SCROLLLOCK
   - {t: ▽, type: trans}
