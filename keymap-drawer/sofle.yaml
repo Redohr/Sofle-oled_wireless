@@ -87,10 +87,10 @@ layers:
   - '0'
   - F12
   - '&textcolor'
-  - F
-  - R
-  - S
   - X
+  - S
+  - R
+  - F
   - J
   - ^
   - '&'
