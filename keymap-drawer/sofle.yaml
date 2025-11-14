@@ -23,7 +23,7 @@ layers:
   - L
   - U
   - Y
-  - '|'
+  - \
   - '-'
   - BACKSPACE
   - A
