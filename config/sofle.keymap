@@ -95,8 +95,8 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2            &kp N3    &kp N4        &kp N5                                                     &kp N6  &kp N7         &kp N8     &kp N9      &kp N0                &kp EQUAL
-&kp TAB           &kp Q   &kp W             &kp E     &kp R         &kp T                                                      &kp Y   &kp U          &kp I      &kp O       &kp P                 &kp MINUS
+&kp ESCAPE        &kp N1  &kp N2            &kp N3    &kp N4        &kp N5                                                     &kp N6  &kp N7         &kp N8     &kp N9      &kp N0                &mt EQUAL HOME
+&kp TAB           &kp Q   &kp W             &kp E     &kp R         &kp T                                                      &kp Y   &kp U          &kp I      &kp O       &kp P                 &mt MINUS END
 &kp BACKSPACE     &kp A   &kp S             &kp D     &kp F         &kp G                                                      &kp H   &kp J          &kp K      &kp L       &kp NON_US_BACKSLASH  &mt SEMI COLON
 &kp LEFT_BRACKET  &kp Z   &kp X             &kp C     &kp V         &kp B   &kp CLCK                &to 4                      &kp N   &kp M          &kp COMMA  &kp PERIOD  &kp FSLH              &kp RBKT
                           &kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &mo 1   &mt LEFT_SHIFT SPACE    &mt LA(KP_ENTER) KP_ENTER  &mo 2   &kp RIGHT_GUI  &kp SQT    &kp GRAVE
@@ -121,8 +121,8 @@
             bindings = <
 &kp PRINTSCREEN  &kp F1     &kp F2     &kp F3       &kp F4     &kp F5                      &kp F6    &kp F7    &kp F8    &kp F9     &kp F10          &kp F11
 &kp LA(TAB)      &kp LC(C)  &pt        &pff         &kp LC(V)  &nofill                     &trans    &trans    &kp INS   &trans     &kp PRINTSCREEN  &kp F12
-&textcolor       &trans     &trans     &kp DEL      &trans     &trans                      &kp HOME  &trans    &trans    &trans     &trans           &kp PIPE
-&kp DELETE       &kp EQUAL  &kp MINUS  &kp KP_PLUS  &kp LBRC   &kp RBRC  &trans    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH         &trans
+&kp DEL          &trans     &trans     &kp DEL      &trans     &trans                      &kp HOME  &trans    &trans    &trans     &trans           &kp PIPE
+&textcolor       &kp EQUAL  &kp MINUS  &kp KP_PLUS  &kp LBRC   &kp RBRC  &trans    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH         &trans
                             &trans     &trans       &trans     &trans    &trans    &trans  &trans    &trans    &trans    &trans
             >;
 
