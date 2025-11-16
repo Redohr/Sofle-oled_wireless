@@ -16,39 +16,39 @@ layers:
   - TAB
   - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
+  - E
+  - R
+  - T
   - Y
-  - '|'
+  - U
+  - I
+  - O
+  - P
   - '-'
   - BACKSPACE
   - A
-  - R
   - S
-  - T
+  - D
+  - F
   - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - '`'
+  - H
+  - J
+  - K
+  - L
+  - \
+  - {t: ':', h: ;}
   - '['
   - Z
   - X
   - C
-  - D
   - V
+  - B
+  - ''''
+  - '`'
+  - N
+  - M
   - ','
   - .
-  - K
-  - H
-  - ''''
-  - {t: ':', h: ;}
   - /
   - ']'
   - LEFT GUI
@@ -80,23 +80,23 @@ layers:
   - '&pff'
   - Ctl+V
   - '&nofill'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - F12
   - '&textcolor'
-  - X
-  - R
-  - S
-  - F
-  - J
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '|'
   - DELETE
   - '='
@@ -161,9 +161,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CUT
-  - COPY
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
