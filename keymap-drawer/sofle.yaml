@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '='
+  - {t: HOME, h: '='}
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - {t: END, h: '-'}
   - BACKSPACE
   - A
   - S
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - F12
-  - '&textcolor'
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
-  - DELETE
+  - '&textcolor'
   - '='
   - '-'
   - KP PLUS
