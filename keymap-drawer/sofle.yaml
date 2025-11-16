@@ -51,16 +51,16 @@ layers:
   - {t: ':', h: ;}
   - /
   - ']'
-  - LEFT GUI
-  - LALT
   - LEFT CONTROL
+  - LALT
+  - LEFT WIN
   - lower
   - {t: SPACE, h: LEFT SHIFT}
   - {t: KP ENTER, h: Alt+KP ENTER}
   - raise
-  - RCTRL
+  - RIGHT GUI
   - RALT
-  - RGUI
+  - RIGHT CONTROL
   lower:
   - PRINTSCREEN
   - F1
