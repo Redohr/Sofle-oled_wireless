@@ -87,11 +87,11 @@ layers:
   - PRINTSCREEN
   - F12
   - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+V
+  - Ctl+Sft+B
+  - Ctl+Sft+R
+  - Ctl+Sft+R
+  - Ctl+Sft+U
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,12 +99,12 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - '&textcolor'
-  - '='
+  - Ctl+Sft+=
   - '-'
   - KP PLUS
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - Sft+Ctl+N
   - {t: ▽, type: trans}
   - '['
   - ']'
