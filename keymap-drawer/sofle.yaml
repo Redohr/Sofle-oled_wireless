@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - CLCK
-  - {t: numpad, h: toggle}
+  - {t: NUMPAD, h: toggle}
   - N
   - M
   - ','
@@ -244,7 +244,7 @@ layers:
   - ''
   - ''
   - ''
-  numpad:
+  NUMPAD:
   - ESCAPE
   - {t: ▽, type: trans}
   - KP NUMLOCK

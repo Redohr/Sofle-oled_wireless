@@ -306,8 +306,8 @@ path.combo {
 </g>
 <g transform="translate(525, 210)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#numpad">
-<text x="0" y="0" class="key tap layer-activator">numpad</text>
+<a href="#NUMPAD">
+<text x="0" y="0" class="key tap layer-activator">NUMPAD</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(588, 210)" class="key keypos-44">
@@ -1122,8 +1122,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1590)" class="layer-numpad">
-<text x="0" y="28" class="label" id="numpad">numpad:</text>
+<g transform="translate(30, 1590)" class="layer-NUMPAD">
+<text x="0" y="28" class="label" id="NUMPAD">NUMPAD:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
