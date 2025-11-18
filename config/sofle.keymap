@@ -80,16 +80,14 @@
             label = "PFF";
         };
 
-    copyvisible: copyvisible {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    label = "COPY_VISIBLE";
-    wait-ms = <30>;   // Thời gian chờ tiêu chuẩn giữa các phím (nhanh)
-    tap-ms = <30>;    // Thời gian giữ phím (đủ để máy nhận)
-    bindings
-        = <&kp LA(SEMI)>          // 1. Gửi lệnh Alt + ; (Chọn vùng hiển thị)
-        , <&macro_wait_time 200>  // 2. [QUAN TRỌNG] Chờ 0.2s để Excel kịp bôi đen
-        , <&kp LC(C)>;            // 3. Gửi lệnh Copy
+        copyvisible: copyvisible {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "COPY_VISIBLE";
+            wait-ms = <30>;   // Thời gian chờ tiêu chuẩn giữa các phím (nhanh)
+            tap-ms = <30>;    // Thời gian giữ phím (đủ để máy nhận)
+            bindings = <&kp LA(SEMI)>, <&macro_wait_time 200>, <&kp LC(C)>;
+            // 3. Gửi lệnh Copy
         };
     };
 
@@ -131,11 +129,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp PRINTSCREEN  &kp F1             &kp F2         &kp F3         &kp F4         &kp F5                                  &kp F6    &kp F7    &kp F8    &kp F9     &kp F10          &kp F11
-&kp LA(TAB)      &kp LC(C)          &pt            &pff           &kp LC(V)      &nofill                                 &trans    &trans    &kp INS   &trans     &kp PRINTSCREEN  &kp F12
-&kp DEL          &kp LC(LS(V))      &kp LC(LS(B))  &kp LC(LS(R))  &kp LC(LS(R))  &kp LC(LS(U))                           &kp HOME  &trans    &trans    &trans     &trans           &kp PIPE
-&textcolor       &kp LC(LS(EQUAL))  &kp MINUS      &kp KP_PLUS    &kp LBRC       &kp RBRC       &kp LS(LC(N))    &trans  &kp LBKT  &kp RBKT  &kp SEMI  &kp COLON  &kp BSLH         &trans
-                                    &trans         &trans         &trans         &trans         &trans           &trans  &trans    &trans    &trans    &trans
+&kp PRINTSCREEN  &kp F1             &kp F2         &kp F3         &kp F4         &kp F5                                  &kp F6    &kp F7         &kp F8    &kp F9     &kp F10          &kp F11
+&kp LA(TAB)      &kp LC(C)          &pt            &pff           &kp LC(V)      &nofill                                 &trans    &kp LS(LC(U))  &kp INS   &trans     &kp PRINTSCREEN  &kp F12
+&kp DEL          &copyvisible       &kp LC(LS(V))  &kp LC(LS(R))  &kp LC(LS(Y))  &kp LC(LS(B))                           &kp HOME  &trans         &trans    &trans     &trans           &kp PIPE
+&textcolor       &kp LC(LS(EQUAL))  &kp MINUS      &kp KP_PLUS    &kp LBRC       &kp RBRC       &kp LS(LC(N))    &trans  &kp LBKT  &kp RBKT       &kp SEMI  &kp COLON  &kp BSLH         &trans
+                                    &trans         &trans         &trans         &trans         &trans           &trans  &trans    &trans         &trans    &trans
             >;
 
             sensor-bindings =
