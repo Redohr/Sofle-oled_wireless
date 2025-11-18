@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default:
+  Redohr:
   - ESCAPE
   - '1'
   - '2'
@@ -35,9 +35,9 @@ layers:
   - J
   - K
   - L
-  - \
   - {t: ':', h: ;}
-  - '['
+  - {t: '''', h: RIGHT SHIFT}
+  - {t: '[', h: LCTRL}
   - Z
   - X
   - C
@@ -50,16 +50,16 @@ layers:
   - ','
   - .
   - /
-  - ']'
+  - {t: ']', h: RCTRL}
   - LEFT CONTROL
   - LALT
   - LEFT GUI
-  - lower
+  - {t: SPACE, h: lower}
   - {t: SPACE, h: LEFT SHIFT}
-  - {t: KP ENTER, h: Alt+KP ENTER}
-  - raise
-  - RIGHT GUI
-  - ''''
+  - {t: SPACE, h: KP ENTER}
+  - {t: RIGHT ALT, h: raise}
+  - APPLICATION
+  - DELETE
   - '`'
   lower:
   - PRINTSCREEN
@@ -89,7 +89,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -267,7 +267,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - H
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
@@ -275,7 +275,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - H
   - KP 4
   - KP 5
   - KP 6
@@ -288,7 +288,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: Redohr, h: toggle}
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
