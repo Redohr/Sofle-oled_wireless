@@ -80,12 +80,16 @@
             label = "PFF";
         };
 
-        copyvisible: copyvisible {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(SEMICOLON) &kp LC(C)>;
-            label = "COPYVISIBLE";
-            wait-ms = <100>;
+    copyvisible: copyvisible {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    label = "COPY_VISIBLE";
+    wait-ms = <30>;   // Thời gian chờ tiêu chuẩn giữa các phím (nhanh)
+    tap-ms = <30>;    // Thời gian giữ phím (đủ để máy nhận)
+    bindings
+        = <&kp LA(SEMI)>          // 1. Gửi lệnh Alt + ; (Chọn vùng hiển thị)
+        , <&macro_wait_time 200>  // 2. [QUAN TRỌNG] Chờ 0.2s để Excel kịp bôi đen
+        , <&kp LC(C)>;            // 3. Gửi lệnh Copy
         };
     };
 
