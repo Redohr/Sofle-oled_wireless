@@ -81,17 +81,17 @@ layers:
   - Ctl+V
   - '&nofill'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+U
   - INS
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - F12
   - DEL
+  - '&copyvisible'
   - Ctl+Sft+V
+  - Ctl+Sft+R
+  - Ctl+Sft+Y
   - Ctl+Sft+B
-  - Ctl+Sft+R
-  - Ctl+Sft+R
-  - Ctl+Sft+U
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
