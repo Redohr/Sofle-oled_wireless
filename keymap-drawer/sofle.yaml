@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
-  - {t: ▽, type: trans}
+  - Ctl+C
   - KP 7
   - KP 8
   - KP 9
@@ -298,7 +298,7 @@ layers:
   - KP 0
   - {t: Sft+;, h: Sft+LEFT ALT}
   - H
-  - {t: ▽, type: trans}
+  - Ctl+V
   - {t: KP ENTER, h: Alt+KP ENTER}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
