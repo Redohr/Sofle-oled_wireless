@@ -281,7 +281,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - LCTRL
   - ','
   - KP 1
   - KP 2
@@ -296,7 +296,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 0
-  - Sft+;
+  - {t: Sft+;, h: Sft+LEFT ALT}
   - H
   - {t: ▽, type: trans}
   - {t: KP ENTER, h: Alt+KP ENTER}
