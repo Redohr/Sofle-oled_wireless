@@ -173,6 +173,7 @@
         };
 
         numpad {
+             label = "NUMPAD";
             bindings = <
 &kp ESCAPE     &trans          &kp KP_NUMLOCK   &kp SLASH                       &kp ASTERISK     &kp MINUS                                             &trans  &trans          &trans          &trans           &trans  &trans
 &kp TAB        &kp LC(C)       &kp KP_NUMBER_7  &kp KP_NUMBER_8                 &kp KP_NUMBER_9  &kp PLUS                                              &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans  &trans
