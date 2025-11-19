@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - '&textcolor'
-  - Ctl+Sft+=
+  - Ctl+Sft+T
   - '-'
   - KP PLUS
   - '{'
@@ -136,11 +136,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
   - UP ARROW
-  - PRINTSCREEN
-  - '&msc SCRL_RIGHT'
+  - REFRESH
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PSCRN
@@ -148,8 +148,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
+  - PAGE DOWN
+  - LEFT ARROW
   - DOWN ARROW
   - RIGHT
   - {t: ▽, type: trans}
